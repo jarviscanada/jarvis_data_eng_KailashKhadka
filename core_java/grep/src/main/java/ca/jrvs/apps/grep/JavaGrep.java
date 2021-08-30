@@ -43,13 +43,13 @@ public interface JavaGrep {
    * Explore: FileOutputStream, OutputStreamWriter, and BufferedWriter
    *
    * @param lines matched line
-   * @throws IOException if wirte failed
+   * @throws IOException if write failed
    */
   void writeToFile(List<String> lines) throws IOException;
 
-  String getRootpath();
+  String getRootPath();
 
-  void setRootpath(String rootpath);
+  void setRootPath(String rootPath);
 
   String getRegex();
 
@@ -57,6 +57,8 @@ public interface JavaGrep {
 
   String getOutFile();
 
-  void setOutfile(String outfile);
+  void setOutFile(String outFile);
+
+
 
 }

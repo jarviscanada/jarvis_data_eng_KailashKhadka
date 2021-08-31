@@ -9,7 +9,12 @@ class RegexDemo implements RegexExc {
   public boolean matchJpeg(String filename) {
     //for both filename and extension: regex = "\\w+\\.jpe?g"
     // for extension only (?<=.)jpe?g i.e. jpg or jpeg preceded by a dot
-    Pattern pattern1 = Pattern.compile("\\w+\\.jpe?g", Pattern.CASE_INSENSITIVE);
+    //regex_pattern=".*Romeo.*Juliet.*"
+    //src_dir="./data"
+    //Pattern pattern1 = Pattern.compile("\\w+\\.jpe?g", Pattern.CASE_INSENSITIVE);
+    Pattern pattern1 = Pattern.compile("\\.jpe?g", Pattern.CASE_INSENSITIVE);
+
+
     Matcher matcher1 = pattern1.matcher(filename);
     // System.out.println(matcher1.group()); // print the matched string
     return matcher1.matches();
@@ -35,7 +40,7 @@ class RegexDemo implements RegexExc {
   }
 
   public static void main(String[] args) {
-    String filename = "my_picture.jpcg";
+    String filename = "my_picture.jpg";
     String ip = "01.125.1.0";
     String line = "          ";
 

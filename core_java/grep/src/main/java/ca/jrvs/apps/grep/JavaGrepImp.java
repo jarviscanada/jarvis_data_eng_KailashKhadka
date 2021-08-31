@@ -41,7 +41,7 @@ public class JavaGrepImp implements JavaGrep {
     try {
       javaGrepImp.process();
     } catch (Exception ex) {
-      javaGrepImp.logger.error(ex.getMessage(), ex);
+      javaGrepImp.logger.error("Exception Caught", ex);
     }
   }
 
@@ -119,7 +119,7 @@ public class JavaGrepImp implements JavaGrep {
       }
       reader.close();
     } catch (IOException e) {
-      e.printStackTrace();
+      logger.error("Exception caught", e);
     }
     return fileContents;
   }

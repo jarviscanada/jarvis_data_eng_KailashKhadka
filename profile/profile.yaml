@@ -1,0 +1,139 @@
+# Preferred name (Characters only)
+name: "Kailash Khadka"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_KailashKhadka
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: A recent graduate from the University of Waterloo with a specialization in AI and Machine Learning. Was a teacher, had been an engineer, now an aspiring Software Engineer but always a student. A tech guy who loves to tinker with software and hardware equally. Passionate about developing smart solutions to problems. Looking to contribute to the growth of my employers while growing alongside.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - Python
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - C++
+    - MATLAB
+    - Data Analysis [R, SPSS]
+    - Machine Learning Packages [TensorFlow, Keras, ScikitLearn, NLTK]
+    - Python Libraries [Numpy, Scipy, Pandas, Matplotlib, Pyplot, Seaborn]
+  # At least 5 skills
+  familiar:
+    - Docker
+    - GCP
+    - Google Colab
+    - Kaggle
+    - OpenCV
+    - Dronekit
+    - Raspberry Pi
+    - PLC, RSLlogix, SCADA
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Designed and implemented a Linux Cluster Administration (LCA) system that manages a cluster of nodes running CentOS 7 and periodically monitors and logs hardware specification and data usage of each node in an RDBMS database. Created and used a VM instance in GCP and implemented in docker engine and PostgreSQL with bash scripting."
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      - "Twitter App: Not Started"
+      - "JDBC App: Not Started"
+      - "Grep App: Implemented a Java application that searches for a text pattern recursively in a given directory, and outputs matched lines to a file. This application implements a Java interface, uses libraries like java.io, java.util, and java.slf4j for logging. This project was written in Intellij IDEA with Maven project management and deployed on a docker engine."
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlaytics"
+    description: ""
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: ""
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Feature Extraction and Classification on Fashion MNIST Image Dataset"
+    #URL is optional
+    git_url:
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Conducted exploration, analysis, and classification of the dataset using traditional machine learning and deep learning approaches and compared performance and classification results.
+  - name: "License Plate Detection and Recognition using Joint CNNs"
+    git_url:
+    description: Implemented cascaded CNN model to detect license plate with high accuracy and fast speed followed by holistic CNN structure for recognition of detected license plates with an overall accuracy of 98% on CCPD parking dataset containing a wide variety of license plates; total 250k images
+
+  - name: "R Shiny App for Exploration, Analysis, and Visualization of a Dataset"
+    git_url:
+    description: Designed and developed a web-based interactive visualization application using R Shiny library to apply exploratory data analysis including data cleaning, manipulation, visualization and statistical tests.
+
+  - name: "Minimum Vertex Cover for Street Camera Deployment"
+    git_url:
+    description: Designed a multi-threaded Linux program using MINISAT solver library to solve minimum vertex cover problem to find locations such that a minimum number of street cameras could be installed to achieve full coverage of a network of roads.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Junior Software Developer"
+    company: "Jarvis Consulting Group"
+    duration: "2021-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Refactored Alert Ingestor Java application using Scala and Spark data processing engine for a client company. Coded a clustering agent application which monitors system resource usage on a Linux system."
+  - title: "Graduate Teaching Assistant"
+    company: "University of Waterloo, Waterloo, ON"
+    duration: "2020"
+    description: "Assisted the professor in administering Image Processing and Visual Communications course by guiding the students in the course and projects works, grading assignments and research project reports, and tracking their progress."
+  - title: "Commissioning Engineer"
+    company: "Odat Engineering Solutions, Nepal"
+    duration: "2016-2018"
+    description: "Led the team in installation, testing, and commissioning of electrical equipment and systems (SCADA, Protection Systems, Local Control Units, and Power Line Carrier Communication Systems. Prepared daily, weekly, and monthly reports and monitored and executed Workplace Health and Safety Program."
+  - title: "O&M Engineer"
+    company: "BhoteKoshi Power Company, Nepal"
+    duration: "2012-2016"
+    description: "Conducted operation of 45 MW hydropower plant under standard operating procedures and Led the maintenance team for troubleshooting, repair, testing, calibration, configuration and maintenance of instrumentation, computer, electronic & electrical equipment to ensure uninterrupted power production."
+  - title: "Lecturer"
+    company: "Tribhuvan University, Kathmandu, Nepal"
+    duration: "2010-2012"
+    description: "Conducted classes, tutorials, and lab activities for Digital Logic, and Microprocessor and Assembly Language Programming along with final year major project supervisions."
+
+#List of education
+education: 
+  - school_name: "University of Waterloo"
+    duration: "2019-2020"
+    degree: "Master of Engineering"
+    department: "Electrical and Computer Engineering"
+    awards_achievements:
+
+  - school_name: "Tribhuvan University, Nepal"
+    duration: "2010-2013"
+    degree: "Master of Science"
+    department: "Information and Communication Engineering"
+    awards_achievements:
+
+#Optional section
+others:
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Chess player"
+      - "Drone Hobbyist"
+      - "Volunteer, Red Cross Society, Nepal: Blood Donation Program, 2012, 2014"
+      - "Volunteer, Let's Share Forum, Nepal: Earthquake relief operations, 2015"
+      - "Volunteer, First Robotics Competition, Waterloo, Canada, 2019"
+      - "Emergency First Aid CPR/AED Level C Certification"
